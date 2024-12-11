@@ -11,9 +11,9 @@ def calc(a,b, oper):
         return mult
     elif oper == "/":
         div = a / b
-        return div
+        return 
     else:
-        return "Vc digitou um operador inválido!"
+        return "Vc digitou um operador inválido que precisa rever!"
 
 num1 = int(input("Digite um valor: "))
 num2 = int(input("Digite um valor: "))
